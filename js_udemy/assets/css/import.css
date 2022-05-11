@@ -1,0 +1,219 @@
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-active {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.modal__inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  padding: 50px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.modal__inner img {
+  width: 100%;
+}
+
+.modal__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal__close i {
+  font-size: 20px;
+  color: #333;
+}
+
+.modal__background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  -webkit-transition: opacity .6s;
+  transition: opacity .6s;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave-active {
+  -webkit-transition: opacity .6s;
+  transition: opacity .6s;
+}
+
+.list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.list-enter-active, .list-leave-active {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.list-enter, .list-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+.carousel {
+  width: 840px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel__main {
+  width: 640px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.carousel__prev {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.carousel__prev:hover {
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.carousel__next {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.carousel__next:hover {
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.carousel__thumbnails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel__thumbnails li {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.carousel__thumbnails li:hover {
+  opacity: 1;
+}
+
+.carousel__thumbnails li.current {
+  opacity: 1;
+}
+
+.carousel__thumbnails img {
+  width: 80px;
+}
+
+.active-enter {
+  opacity: 0;
+}
+
+.active-enter-to {
+  opacity: 1;
+}
+
+.active-enter-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.active-leave {
+  opacity: 1;
+}
+
+.active-leave-to {
+  opacity: 0;
+}
+
+.active-leave-active {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+input[type=submit] {
+  width: 100%;
+}
+/*# sourceMappingURL=import.css.map */
