@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/import.css">
+</head>
+<style>
+  body{
+    padding: 0;
+    margin: 0 ;
+  }
+  .h300{
+    height: 300px;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .pink{
+    background-color: pink;
+  }
+  .message-box{
+    background-color: #fff;
+    padding: 30px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+  }
+  .relactive{
+    position: relative;
+  }
+  .show{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+</style>
+<body>
+
+
+
+  <div class="h300 blue"></div>
+  <div class="h300 pink"></div>
+  <div class="h300 blue relactive">
+    <div class="message-box">aaaaa</div>
+  </div>
+  <div class="h300 pink"></div>
+  <div class="h300 blue relactive">
+    <div class="message-box">aaaaa</div>
+  </div>
+  <div class="h300 pink"></div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> -->
+  <script src="./index_02.js"></script>
+
+
+
+
+</body>
+</html>
