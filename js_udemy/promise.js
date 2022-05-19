@@ -52,3 +52,11 @@ function promisetest4 (pay,seconds) {
 // })
 
 
+const parentDiv = document.getElementById("img_wrapper");
+let newEle = document.createElement("p");
+let newTxt = document.createTextNode("iiiii");
+newEle.appendChild(newTxt);
+newEle.setAttribute("id","ele_02");
+let child_03 = document.getElementById("ele_03");
+
+parentDiv.insertBefore(newEle,child_03);
