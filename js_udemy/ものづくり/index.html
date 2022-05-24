@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="ものづくり">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ものづくり</title>
+  <link rel="stylesheet" href="./assets/css/import.css">
+  <link rel="stylesheet" href="./assets/css/sanitize.css">
+</head>
+
+<body>
+
+
+  <div id="appendParent">
+
+  </div>
+
+  <div class="quizzes-container">
+    <h1>クイズ  </h1>
+    <div class="quiz-container">
+      <h2>第1問</h2>
+      <div>
+        <p>枕草子の作者はだれ？</p>
+      </div>
+      <form id="quiz-1">
+        <input name="answer" type="radio" value="a">紫式部</input>
+        <input name="answer" type="radio" value="b">清少納言</input>
+        <input name="answer" type="radio" value="c">小野小町</input>
+      </form>
+      <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>
+    </div>
+    <div class="quiz-container">
+      <h2>第2問</h2>
+      <div>
+        <p>国旗に5つの星がある国は？</p>
+      </div>
+      <form id="quiz-2">
+        <input name="answer" type="radio" value="a">中国</input>
+        <input  name="answer" type="radio" value="b">ニュージーランド</input>
+        <input name="answer" type="radio" value="c">オーストラリア</input>
+      </form>
+      <button class="btn" type="button" onclick="answerQuiz2();">回答する</button>
+    </div>
+    <div class="quiz-container">
+      <h2>第3問</h2>
+      <div>
+        <p>世界で一番長い川は？</p>
+      </div>
+      <form id="quiz-3">
+        <input name="answer" type="radio" value="a">アマゾン</input>
+        <input name="answer" type="radio" value="b">ミシシッピ</input>
+        <input name="answer" type="radio" value="c">ナイル</input>
+      </form>
+
+      <button class="btn" type="button" onclick="answerQuiz3();">回答する</button>
+    </div>
+    <div id="score-container">
+      <p id="score-message"></p>
+    </div>
+    <button class="btn-score" type="button" onclick="showScore();">合計得点を見る</button>
+  </div>
+
+
+  <style>
+    body {
+  font-family: serif;
+  text-align: center;
+}
+
+.quizzes-container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.quiz-container {
+  border-bottom:1px solid black;
+  padding-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  font-family: serif;
+  background-color: white;
+}
+
+#score-container {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.btn-score {
+  display: block;
+  margin: 20px auto;
+  font-family: serif;
+  background-color: white;
+}
+  </style>
+
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
