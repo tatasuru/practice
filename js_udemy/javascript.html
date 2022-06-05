@@ -12,7 +12,7 @@
 
 
 
-  <script src="./promise.js"></script>
+  <!-- <script src="./promise.js"></script> -->
 </body>
 </html>
 
@@ -64,17 +64,100 @@
 // }
 
 
-const array = [10,"りんご",20,"みかん",30,40]
-let sum = 0;
+// const array = [10,"りんご",20,"みかん",30,40]
+// let sum = 0;
 
 
-for(let i =0; i < array.length; i++){
-  if(typeof array[i] ==="number"){
-    sum += array[i];
-  }
+// for(let i =0; i < array.length; i++){
+//   if(typeof array[i] ==="number"){
+//     sum += array[i];
+//   }
+// }
+
+// console.log(sum);
+
+
+// const breakTestArry = ["抜けない","not break","break","この前で抜ける"]
+// for( const [index , value] of breakTestArry.entries() ){
+//   console.log(breakTestArry[index]);
+//   if(index === 2){
+//     break;
+//   }
+// }
+
+
+// for(let i = 0; i < 3; i++){
+//   if(i === 1){
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+// function multiply( val1 , val2) {
+//   return val1 + val2
+// }
+
+// console.log(multiply(5 , 2));
+
+
+// function hello (personName) {
+//   if(typeof personName  !=="string"){
+//     console.log("引数には文字列を入力してください！");
+//   } else{
+//     console.log(`${personName} Hello!!`);
+//   }
+// }
+
+// hello("1");
+
+// function fn1() {
+//   const val = 1 + 1;
+//   console.log(val);
+// }
+
+// fn1()
+
+// function fn2 () {
+//   console.log(7 % 3);
+//   return;
+// }
+
+// fn2()
+
+// function calcAreaOfCircle (radius , pi = 3) {
+//   console.log(radius * radius * pi);
+//   return;
+// }
+
+// calcAreaOfCircle(10);
+
+
+// const obj1 = {num : 3}
+// const obj2 = {num : 3}
+// let num = 3;
+
+// function fn(objectArg,object2Arg,numberArg){
+//   objectArg = { num: 5 }
+//   object2Arg.num = 5
+//   numberArg = 5;
+// }
+
+// fn(obj1,obj2,num);
+
+
+// console.log(obj1.num);
+// console.log(obj2.num);
+// console.log(num)
+
+
+
+function hello(name) {
+  console.log(`こんにちは、${name}`);
 }
 
-console.log(sum);
+const obj = hello;
+
+obj("tatsu");
 
 
 
